@@ -1,8 +1,6 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
-from car import Car
 
-class Battery(Car, ABC):
-    @abstractmethod
+class Battery(ABC):
     def battery_need_service(self):
         pass
